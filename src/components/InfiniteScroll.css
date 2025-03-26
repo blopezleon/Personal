@@ -1,0 +1,20 @@
+/* InfiniteScroll.css */
+.infinite-scroll-wrapper {
+    max-height: 80vh; /* Adjust as needed */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .infinite-scroll-container {
+    width: 100%;
+  }
+  
+  .infinite-scroll-item {
+    height: 150px; /* Fixed height for each item */
+    margin-top: -0.5em; /* Adjust spacing between items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8); /* Background for items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }

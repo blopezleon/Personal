@@ -1,0 +1,109 @@
+.gallery-container {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.gallery-gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 48px;
+  z-index: 10;
+}
+
+.gallery-gradient-left {
+  left: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #060606 100%);
+}
+
+.gallery-gradient-right {
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #060606 100%);
+}
+
+.gallery-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  box-shadow: none;
+}
+
+.gallery-track {
+  display: flex;
+  height: auto;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  transform-style: preserve-3d;
+  width: 100%;
+  box-shadow: none;
+}
+
+.gallery-item {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 8%;
+  backface-visibility: hidden;
+  box-shadow: none;
+}
+
+.gallery-img {
+  pointer-events: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Styles for captions */
+.gallery-caption {
+  margin-top: 0px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px 16px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    padding: 6%;
+  }
+  .gallery-img {
+    height: 100px;
+    width: 220px;
+  }
+
+  /* Adjust caption styles for smaller screens */
+  .gallery-caption {
+    font-size: 14px;
+    padding: 6px 12px;
+    bottom: 0px;
+  }
+}

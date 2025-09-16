@@ -25,26 +25,26 @@ const Projects = () => {
     {
       title: 'Fluent-Form',
       description: 'A full-stack web application built with React and Node.js. Uses phoneme recognition to correct speech impediments and provides feedback and training exercises.',
-      image: '../Screenshot 2025-03-11 at 12.01.49 AM.png',
+      image: '../Gemini_Generated_Image_thp49kthp49kthp4.png',
       technologies: ['React', 'Node.js', 'Microsoft Azure', 'OpenAI', 'Express'],
       github: 'https://github.com/blopezleon/goat-idk',
       live: 'https://youtu.be/nVcaHkGg8zA',
     },
     {
-      title: 'Love Letter Generator',
-      description: 'A fully deployed HTML website that generates a love letter with a joke for my girlfriend to get some of my humor even when I am not available.',
-      image: '../Screenshot 2025-03-11 at 12.11.58 AM.png',
-      technologies: ['Render', 'OpenAI', 'Node.js', 'GitHub Pages'],
-      github: 'https://github.com',
-      live: 'https://blopezleon.github.io/MinILoveYou/',
+      title: 'Ride-A-Bull',
+      description: 'Rideshare app for college students uses zero-knowledge proofs for secure, private authentication and a complex algorithm to calculate environmental impact for travel between campuses.',
+      image: '../Ride.png',
+      technologies: ['Google Maps API', 'Auth0', 'MongoDB', 'Midnight network'],
+      github: 'https://github.com/adv-andrew/RideABull',
+      live: 'https://www.youtube.com/watch?v=XqKOcEw_bp0',
     },
     {
-      title: 'Portfolio Website',
-      description: 'AWS deployed website that showcases some who I am.',
-      image: 'https://via.placeholder.com/400x200',
-      technologies: ['React', 'Firebase', 'WebSocket', 'Material-UI'],
+      title: 'Decentralized Currency Front Running Detection',
+      description: 'Under construction',
+      image: '../Warnings.png',
+      technologies: ['Websocket' , 'Python', 'Solidity', 'Ethereum'],
       github: 'https://github.com',
-      live: 'https://example.com',
+      live: 'https://youtube.com',
     },
   ];
 
@@ -98,6 +98,12 @@ const Projects = () => {
                       height="200"
                       image={project.image}
                       alt={project.title}
+                      sx={{
+                        backgroundColor: 'transparent',
+                        '& img': {
+                          backgroundColor: 'transparent',
+                        }
+                      }}
                     />
                     <CardContent sx={{ flexGrow: 1 }}>
                       <Typography gutterBottom variant="h5" component="h2">

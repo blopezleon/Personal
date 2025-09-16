@@ -65,18 +65,23 @@ const About = () => {
               <Grid item xs={12} md={6}>
                 <Box sx={{ pr: { md: 4 } }}>
                   <Typography variant="body1" paragraph>
-                    I'm a Computer Engineering student at the University of Florida with a passion for building
-                    real-world solutions through code. Whether it's developing projects, competing in hackathons, 
-                    or creating content, I'm always looking for ways to improve on my last project. I also have a strong interest in 
-                    sales and marketing, combining technical expertise with the ability to connect ideas with people.
+                  As a computer engineering student at the University of Florida, I'm driven by a passion
+                   for creating impactful software solutions. My experience is highlighted by a successful
+                    project management internship at Citi, where I pioneered the use of AI for writing
+                    command-line automation scripts. My work became the most viewed video on the company
+                    intranet, and it inspired the creation of the Citi AI Ambassadors program. Beyond my
+                    corporate experience, I'm a proven leader as a project lead for the AI Club and a
+                    prize-winning competitor, having secured a win at the SHPE UF Hackathon and an award
+                    for the best use of MongoDB. I combine strong technical skills with a dedication to
+                    teaching and leading, always pushing the boundaries of what's possible with innovation.
                   </Typography>
                   <Typography variant="body1" paragraph>
-                    I live by the idea that "good enough isn't" because I believe that the 
-                    work that we do is the best reflection of who we are. The things that I do, weather
-                    it be hackathons which I competed in again and again until I won, making content 
-                    which I upload every week improving on my editing and filming skills, or building 
-                    relationships with complete strangers as well as familar faces, I do it with the mindset 
-                    of doing better and better every time. 
+                  Beyond my professional life, I’m a passionate marathon runner and a dedicated inventor. I
+                   love to build things, whether it's a DIY ring camera or a watch. My time as
+                    an Apple sales specialist taught me to translate complex ideas into clear, human-centric solutions,
+                     a skill I apply to both my personal projects and my professional work. As a proud Mexican and a
+                      member of SHPE, I'm committed to leveraging my skills to build community and bridge the gap
+                       between innovation and human connection.
                   </Typography>
                   <Typography variant="h6" sx={{ mt: 6, mb: 3 }}>
                     Here are a few technologies I've been working with recently:
@@ -124,7 +129,7 @@ const About = () => {
                   }}
                 >
                   <motion.img
-                    src="/581b74e5-1840-470e-86ff-7f5559cf2442.JPG"
+                    src="/Aboutme.jpg"
                     alt="About Me"
                     style={{
                       width: '100%',

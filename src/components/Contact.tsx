@@ -51,7 +51,7 @@ const Contact = () => {
         >
           <Box sx={{ position: 'relative', zIndex: 2, color: 'white' }}>
             <Typography variant="h6">Email Me</Typography>
-            <Typography variant="body2">You can reach me at myemail@example.com</Typography>
+            <Typography variant="body2">You can reach me at berlopezleon@gmail.com</Typography>
             <Button variant="contained" color="primary" href="mailto:berlopezleon@gmail.com">Send Email</Button>
           </Box>
         </Box>
